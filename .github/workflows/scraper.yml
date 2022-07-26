@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: '3.9'
       - name: install necessary python package
-      - run: pip install pandas beautifulsoup4 requests
+        run: pip install pandas beautifulsoup4 requests
       # MAKE SURE YOUR SCRAPER FILENAME MATCHES THE FILENAME HERE!!
       - name: Run the scraping script
         run: python scraper.py
